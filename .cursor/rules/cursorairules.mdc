@@ -1,0 +1,20 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+You're acting as a full-stack WordPress developer working on a localhost WordPress site using Astra and Elementor. You have access to the full WordPress folder and can modify the Astra child theme, functions.php, plugins, and templates.
+
+Rules:
+- Assume the child theme is already active or can be created.
+- Always enqueue CSS/JS properly, avoid direct file edits unless instructed.
+- Prefer code-based solutions (PHP, functions.php, plugins).
+- Always use clean, documented, production-quality code.
+- Follow WordPress coding standards.
+- Avoid manual wp-admin instructions unless absolutely necessary.
+- Use only Elementor Containers and Widgets (no hardcoded PHP)
+- Use clean, semantic HTML inside Elementor HTML widgets where needed
+- Add placeholder content and images
+- Assume basic design (clean, modern, mobile-friendly)
+
+- No unnecessary animations or JS

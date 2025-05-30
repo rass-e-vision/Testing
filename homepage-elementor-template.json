@@ -1,0 +1,98 @@
+{
+  "version": "0.4",
+  "title": "Business Homepage",
+  "type": "section",
+  "content": [
+    {
+      "elType": "section",
+      "settings": {
+        "structure": "full_width",
+        "background_background": "classic",
+        "background_image": {"url": "https://via.placeholder.com/1920x600"},
+        "padding": {"top": "100", "bottom": "100"}
+      },
+      "elements": [
+        {"elType": "widget", "widgetType": "heading", "settings": {"title": "Welcome to [Your Business Name]", "align": "center", "size": "xl"}},
+        {"elType": "widget", "widgetType": "text-editor", "settings": {"editor": "Your Trusted Partner in Success", "align": "center"}},
+        {"elType": "widget", "widgetType": "button", "settings": {"text": "Get Started", "link": {"url": "#contact"}, "align": "center", "size": "lg"}}
+      ]
+    },
+    {
+      "elType": "section",
+      "settings": {"padding": {"top": "60", "bottom": "60"}},
+      "elements": [
+        {"elType": "widget", "widgetType": "heading", "settings": {"title": "Our Services", "align": "center", "size": "lg"}},
+        {"elType": "container", "settings": {"columns": 3}, "elements": [
+          {"elType": "widget", "widgetType": "icon-box", "settings": {"icon": "fa fa-code", "title_text": "Web Development", "description_text": "Clean, fast, and modern websites"}},
+          {"elType": "widget", "widgetType": "icon-box", "settings": {"icon": "fa fa-search", "title_text": "SEO Optimization", "description_text": "Rank higher with expert SEO"}},
+          {"elType": "widget", "widgetType": "icon-box", "settings": {"icon": "fa fa-bullhorn", "title_text": "Digital Strategy", "description_text": "Smarter growth online"}}
+        ]}
+      ]
+    },
+    {
+      "elType": "section",
+      "settings": {"padding": {"top": "60", "bottom": "60"}},
+      "elements": [
+        {"elType": "container", "settings": {"columns": 2}, "elements": [
+          {"elType": "widget", "widgetType": "image", "settings": {"image": {"url": "https://via.placeholder.com/400x400"}}},
+          {"elType": "container", "settings": {}, "elements": [
+            {"elType": "widget", "widgetType": "heading", "settings": {"title": "About Us", "align": "left", "size": "lg"}},
+            {"elType": "widget", "widgetType": "text-editor", "settings": {"editor": "We are a passionate team helping businesses succeed online. Lorem ipsum dolor sit amet, consectetur adipiscing elit."}},
+            {"elType": "widget", "widgetType": "icon-list", "settings": {"icon_list": [
+              {"text": "10+ Years Experience", "icon": "fa fa-check"},
+              {"text": "Award-Winning Team", "icon": "fa fa-trophy"},
+              {"text": "100+ Happy Clients", "icon": "fa fa-users"}
+            ]}}
+          ]}
+        ]}
+      ]
+    },
+    {
+      "elType": "section",
+      "settings": {"padding": {"top": "60", "bottom": "60"}},
+      "elements": [
+        {"elType": "widget", "widgetType": "heading", "settings": {"title": "Why Choose Us", "align": "center", "size": "lg"}},
+        {"elType": "container", "settings": {"columns": 4}, "elements": [
+          {"elType": "widget", "widgetType": "icon-box", "settings": {"icon": "fa fa-bolt", "title_text": "Fast Delivery"}},
+          {"elType": "widget", "widgetType": "icon-box", "settings": {"icon": "fa fa-users", "title_text": "Expert Team"}},
+          {"elType": "widget", "widgetType": "icon-box", "settings": {"icon": "fa fa-chart-line", "title_text": "Proven Results"}},
+          {"elType": "widget", "widgetType": "icon-box", "settings": {"icon": "fa fa-headset", "title_text": "24/7 Support"}}
+        ]}
+      ]
+    },
+    {
+      "elType": "section",
+      "settings": {"padding": {"top": "60", "bottom": "60"}},
+      "elements": [
+        {"elType": "widget", "widgetType": "heading", "settings": {"title": "What Clients Say", "align": "center", "size": "lg"}},
+        {"elType": "container", "settings": {"columns": 3}, "elements": [
+          {"elType": "widget", "widgetType": "testimonial", "settings": {"testimonial_content": "Amazing service and results!", "testimonial_name": "Jane Doe", "testimonial_image": {"url": "https://via.placeholder.com/80"}, "testimonial_rating": 5}},
+          {"elType": "widget", "widgetType": "testimonial", "settings": {"testimonial_content": "Highly recommend this team.", "testimonial_name": "John Smith", "testimonial_image": {"url": "https://via.placeholder.com/80"}, "testimonial_rating": 5}},
+          {"elType": "widget", "widgetType": "testimonial", "settings": {"testimonial_content": "Professional and reliable.", "testimonial_name": "Emily Lee", "testimonial_image": {"url": "https://via.placeholder.com/80"}, "testimonial_rating": 5}}
+        ]}
+      ]
+    },
+    {
+      "elType": "section",
+      "settings": {"padding": {"top": "60", "bottom": "60"}},
+      "elements": [
+        {"elType": "widget", "widgetType": "heading", "settings": {"title": "From Our Blog", "align": "center", "size": "lg"}},
+        {"elType": "widget", "widgetType": "posts", "settings": {"posts_per_page": 3, "columns": 3, "show_image": true, "show_title": true, "show_excerpt": true, "show_read_more": true, "read_more_text": "Read More", "show_meta": false, "show_pagination": false}}
+      ]
+    },
+    {
+      "elType": "section",
+      "settings": {"padding": {"top": "60", "bottom": "60"}, "css_id": "contact"},
+      "elements": [
+        {"elType": "container", "settings": {"columns": 2}, "elements": [
+          {"elType": "widget", "widgetType": "shortcode", "settings": {"shortcode": "[contact-form-7 id=\"123\" title=\"Contact form\"]"}},
+          {"elType": "container", "settings": {}, "elements": [
+            {"elType": "widget", "widgetType": "heading", "settings": {"title": "Contact Info", "align": "left", "size": "md"}},
+            {"elType": "widget", "widgetType": "text-editor", "settings": {"editor": "Phone: (123) 456-7890<br>Email: info@example.com<br>Address: 123 Main St, City, Country"}},
+            {"elType": "widget", "widgetType": "html", "settings": {"html": "<iframe src=\"https://maps.google.com/maps?q=New+York&t=&z=13&ie=UTF8&iwloc=&output=embed\" width=\"100%\" height=\"200\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>"}}
+          ]}
+        ]}
+      ]
+    }
+  ]
+} 
